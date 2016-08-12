@@ -18,7 +18,7 @@ nav {
     float: left;
   }
 
-  ul { 
+  ul {
     @include margin(0px 0px 0px 0px);
     float: right;
     list-style: none;
@@ -29,12 +29,13 @@ nav {
   }
 
   a {
-    
+
   }
 }
 
 section {
   @include outer-container;
+  background-color: red;
 }
 
 a:link,
