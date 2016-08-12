@@ -1,0 +1,48 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  @include margin(0px 0px 0px 0px);
+}
+
+nav {
+  @include outer-container;
+  @include padding(20px null 20px null);
+
+  h1 {
+    @include margin(0px 0px 0px 0px);
+    float: left;
+  }
+
+  ul { 
+    @include margin(0px 0px 0px 0px);
+    float: right;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    
+  }
+}
+
+section {
+  @include outer-container;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: $white;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease; /* For Safari 3.1 to 6.0 */
+  transition: all 0.25s ease;
+}

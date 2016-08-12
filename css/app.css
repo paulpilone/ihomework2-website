@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  margin: 0; }
+
+nav {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  nav::after {
+    clear: both;
+    content: "";
+    display: block; }
+  nav h1 {
+    margin: 0;
+    float: left; }
+  nav ul {
+    margin: 0;
+    float: right;
+    list-style: none; }
+  nav li {
+    display: inline-block; }
+
+section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  section::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease;
+  /* For Safari 3.1 to 6.0 */
+  transition: all 0.25s ease; }
+
+html {
+  font-family: 'Helvetica-Neue', 'Helvetica', sans-serif; }
+
+header {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e74c3c;
+  color: white; }
+  header::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.iphone-bg-gold, .iphone-bg-dark {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .iphone-bg-gold:last-child, .iphone-bg-dark:last-child {
+    margin-right: 0; }
+
+.iphone-bg-gold > div {
+  background-image: url(../img/iphone-bg-gold.png);
+  background-size: contain;
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.iphone-bg-gold img, .iphone-bg-dark img {
+  width: 50%;
+  height: 50%;
+  background: black; }
+
+.left-aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 17.05961%; }
+  .left-aside:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=app.css.map */

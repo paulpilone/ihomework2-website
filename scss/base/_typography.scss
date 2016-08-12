@@ -1,0 +1,9 @@
+html {
+  font-family: 'Helvetica-Neue', 'Helvetica', sans-serif;
+}
+
+header {
+  @include outer-container(100%);
+  background: $red-alizarin;
+  color: $white;
+}

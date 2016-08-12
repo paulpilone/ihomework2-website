@@ -1,0 +1,28 @@
+.iphone-bg-gold, .iphone-bg-dark {
+  @include span-columns(4);
+}
+
+.iphone-bg-gold > div {
+  //width: 75%;
+  //margin: 0;
+  background-image: url(../img/iphone-bg-gold.png);
+  background-size: contain;
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.iphone-bg-gold img, .iphone-bg-dark img {
+  //display: block;
+  width: 50%;
+  height: 50%;
+  //position: absolute;
+  //top: 10%;
+  //left: 10%;
+  background: black;
+}
+
+.left-aside {
+  @include span-columns(4);
+  @include shift(2);
+}
