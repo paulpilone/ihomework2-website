@@ -1,0 +1,27 @@
+{
+  "name": "ihomework2-website",
+  "version": "2.0.0",
+  "description": "iHomework2 Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulpilone/ihomework2-website.git"
+  },
+  "keywords": [
+    "ihomework"
+  ],
+  "author": "Paul Pilone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulpilone/ihomework2-website/issues"
+  },
+  "homepage": "https://github.com/paulpilone/ihomework2-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.0.6"
+  }
+}
