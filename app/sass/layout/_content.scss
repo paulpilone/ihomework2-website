@@ -1,15 +1,18 @@
-.iphone-bg-gold, .iphone-bg-dark {
-  @include span-columns(4);
+.device-background {
+  background-image: url(../img/iphone-bg-gold.png);
+  background-repeat: no-repeat;
+  background-size: 480px;
+  background-position-x: 85%;
+  background-position-y: 5%;
 }
 
-.iphone-bg-gold > div {
-  //width: 75%;
-  //margin: 0;
-  background-image: url(../img/iphone-bg-gold.png);
-  background-size: contain;
-  background-position: center 100%;
-  background-repeat: no-repeat;
-  position: relative;
+.copy-block {
+  min-height: 960px;
+  padding: 4em 0;
+
+  &__copy {
+    max-width: 50%;
+  }
 }
 
 .iphone-bg-gold img, .iphone-bg-dark img {

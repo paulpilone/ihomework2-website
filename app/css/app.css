@@ -10,6 +10,7 @@ html {
   box-sizing: border-box; }
 
 body {
+  color: #323232;
   width: 100%;
   margin: 0; }
 
@@ -66,20 +67,18 @@ header {
     content: "";
     display: block; }
 
-.iphone-bg-gold, .iphone-bg-dark {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
-  .iphone-bg-gold:last-child, .iphone-bg-dark:last-child {
-    margin-right: 0; }
-
-.iphone-bg-gold > div {
+.device-background {
   background-image: url(../img/iphone-bg-gold.png);
-  background-size: contain;
-  background-position: center 100%;
   background-repeat: no-repeat;
-  position: relative; }
+  background-size: 480px;
+  background-position-x: 85%;
+  background-position-y: 5%; }
+
+.copy-block {
+  min-height: 960px;
+  padding: 4em 0; }
+  .copy-block__copy {
+    max-width: 50%; }
 
 .iphone-bg-gold img, .iphone-bg-dark img {
   width: 50%;
