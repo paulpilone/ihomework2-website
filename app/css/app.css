@@ -56,6 +56,9 @@ a:active {
 html {
   font-family: 'Helvetica-Neue', 'Helvetica', sans-serif; }
 
+body {
+  line-height: 1.5em; }
+
 header {
   max-width: 100%;
   margin-left: auto;
@@ -77,13 +80,18 @@ header {
 .copy-block {
   min-height: 960px;
   padding: 4em 0; }
-  .copy-block__copy {
-    max-width: 50%; }
-
-.iphone-bg-gold img, .iphone-bg-dark img {
-  width: 50%;
-  height: 50%;
-  background: black; }
+  .copy-block__content_inset {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-left: 17.05961%; }
+    .copy-block__content_inset:last-child {
+      margin-right: 0; }
+  .copy-block__title {
+    font-size: 2em;
+    font-weight: lighter;
+    margin: 0.4em 0; }
 
 .left-aside {
   float: left;

@@ -10,19 +10,16 @@
   min-height: 960px;
   padding: 4em 0;
 
-  &__copy {
-    max-width: 50%;
+  &__content_inset {
+    @include span-columns(4);
+    @include shift(2);
   }
-}
 
-.iphone-bg-gold img, .iphone-bg-dark img {
-  //display: block;
-  width: 50%;
-  height: 50%;
-  //position: absolute;
-  //top: 10%;
-  //left: 10%;
-  background: black;
+  &__title {
+    font-size: 2em;
+    font-weight: lighter;
+    margin: 0.4em 0;
+  }
 }
 
 .left-aside {
