@@ -2,6 +2,10 @@ html {
   font-family: 'Helvetica-Neue', 'Helvetica', sans-serif;
 }
 
+body {
+  line-height: 1.5em;
+}
+
 header {
   @include outer-container(100%);
   background: $red-alizarin;
