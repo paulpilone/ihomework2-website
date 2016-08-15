@@ -24,15 +24,24 @@ nav {
     clear: both;
     content: "";
     display: block; }
-  nav h1 {
-    margin: 0;
-    float: left; }
   nav ul {
-    margin: 0;
     float: right;
-    list-style: none; }
+    list-style: none;
+    margin: .5em 0 auto 0; }
   nav li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px; }
+  nav a {
     display: inline-block; }
+    nav a img {
+      float: left;
+      height: 56px; }
+    nav a em {
+      float: right;
+      font-size: 2em;
+      font-style: normal;
+      font-weight: lighter;
+      margin: .5em 0 auto 10px; }
 
 section {
   max-width: 1200px;
@@ -47,7 +56,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: white;
+  color: #e74c3c;
   text-decoration: none;
   -webkit-transition: all 0.25s ease;
   /* For Safari 3.1 to 6.0 */
@@ -63,41 +72,151 @@ header {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: #e74c3c;
-  color: white; }
+  background: white;
+  color: #e74c3c; }
   header::after {
     clear: both;
     content: "";
     display: block; }
 
-.device-background {
+.assignment-list-bg {
+  background-image: url(../img/assignment-list.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position-x: 85%;
+  background-position-y: -50%; }
+
+.planner-bg {
   background-image: url(../img/iphone-bg-gold.png);
   background-repeat: no-repeat;
-  background-size: 480px;
-  background-position-x: 85%;
-  background-position-y: 5%; }
+  background-size: 400px;
+  background-position-x: 20%;
+  background-position-y: 50%; }
+
+.details-bg {
+  background-image: url(../img/details-bg.png);
+  background-repeat: no-repeat;
+  background-size: 760px;
+  background-position-x: 120%;
+  background-position-y: 50%; }
+
+.instructor-bg {
+  background-image: url(../img/instructor-list.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position-x: 20%;
+  background-position-y: 50%; }
+
+.watch-bg {
+  background-image: url(../img/watch-bg.png);
+  background-repeat: no-repeat;
+  background-size: 280px;
+  background-position-x: 80%;
+  background-position-y: 50%; }
+
+.settings-bg {
+  background-image: url(../img/settings-bg.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position-x: 20%;
+  background-position-y: 50%; }
 
 .copy-block {
-  min-height: 960px;
+  min-height: 760px;
   padding: 4em 0; }
   .copy-block__content_inset {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%;
-    margin-left: 17.05961%; }
+    width: 40.29137%;
+    margin-left: 8.5298%; }
     .copy-block__content_inset:last-child {
       margin-right: 0; }
+  .copy-block__content_large_inset {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-left: 51.17883%; }
+    .copy-block__content_large_inset:last-child {
+      margin-right: 0; }
+  .copy-block__copy {
+    font-size: 1.1em;
+    font-weight: lighter; }
   .copy-block__title {
     font-size: 2em;
     font-weight: lighter;
+    line-height: 1.05em;
     margin: 0.4em 0; }
 
-.left-aside {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-  margin-left: 17.05961%; }
-  .left-aside:last-child {
-    margin-right: 0; }
+.hero {
+  background-color: #e74c3c;
+  min-height: 460px;
+  padding: 4em 0; }
+  .hero__app_store > img {
+    width: 180px; }
+  .hero__content_inset {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-left: 17.05961%; }
+    .hero__content_inset:last-child {
+      margin-right: 0; }
+  .hero__copy {
+    color: white;
+    font-size: 1.25em;
+    font-weight: lighter;
+    margin-bottom: 40px; }
+  .hero__title {
+    color: white;
+    font-size: 2.5em;
+    font-weight: lighter;
+    line-height: 1.05em; }
+
+.row__highlight {
+  background-color: #e74c3c; }
+.row__light {
+  background-color: white; }
+.row__dark {
+  background-color: #fafafa; }
+
+.store-block {
+  min-height: 180px; }
+  .store-block__logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-left: 8.5298%;
+    width: 120px;
+    padding-top: 30px; }
+    .store-block__logo:last-child {
+      margin-right: 0; }
+  .store-block__content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    padding-top: 30px; }
+    .store-block__content:last-child {
+      margin-right: 0; }
+  .store-block__title {
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center; }
+  .store-block__copy {
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center; }
+  .store-block__app_store {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    display: inline-block;
+    margin-top: 60px; }
+    .store-block__app_store:last-child {
+      margin-right: 0; }
+    .store-block__app_store img {
+      width: 180px; }

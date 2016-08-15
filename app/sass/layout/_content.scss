@@ -1,28 +1,156 @@
-.device-background {
-  background-image: url(../img/iphone-bg-gold.png);
+.assignment-list-bg {
+  background-image: url(../img/assignment-list.png);
   background-repeat: no-repeat;
-  background-size: 480px;
+  background-size: 320px;
   background-position-x: 85%;
-  background-position-y: 5%;
+  background-position-y: -50%;  
 }
 
+.planner-bg {
+  background-image: url(../img/iphone-bg-gold.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position-x: 20%;
+  background-position-y: 50%;
+}
+
+.details-bg {
+  background-image: url(../img/details-bg.png);
+  background-repeat: no-repeat;
+  background-size: 760px;
+  background-position-x: 120%;
+  background-position-y: 50%;
+}
+
+.instructor-bg {
+  background-image: url(../img/instructor-list.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position-x: 20%;
+  background-position-y: 50%;
+}
+
+.watch-bg {
+  background-image: url(../img/watch-bg.png);
+  background-repeat: no-repeat;
+  background-size: 280px;
+  background-position-x: 80%;
+  background-position-y: 50%;
+}
+
+.settings-bg {
+  background-image: url(../img/settings-bg.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position-x: 20%;
+  background-position-y: 50%;
+  }
+
 .copy-block {
-  min-height: 960px;
+  min-height: 760px;
   padding: 4em 0;
 
   &__content_inset {
-    @include span-columns(4);
-    @include shift(2);
+    @include span-columns(5);
+    @include shift(1);
+  }
+
+  &__content_large_inset {
+    @include span-columns(5);
+    @include shift(6);
+  }
+
+  &__copy {
+    font-size: 1.1em;
+    font-weight: lighter;
   }
 
   &__title {
     font-size: 2em;
     font-weight: lighter;
+    line-height: 1.05em;
     margin: 0.4em 0;
   }
 }
 
-.left-aside {
-  @include span-columns(4);
-  @include shift(2);
+.hero {
+  background-color: $red-alizarin;
+  min-height: 460px;
+  padding: 4em 0;
+
+  &__app_store > img {
+    width: 180px;
+  }
+
+  &__content_inset {
+    @include span-columns(5);
+    @include shift(2);
+  }
+
+  &__copy {
+    color: $white;
+    font-size: 1.25em;
+    font-weight: lighter;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    color: $white;
+    font-size: 2.5em;
+    font-weight: lighter;
+    line-height: 1.05em;
+  }
+}
+
+.row {
+  &__highlight {
+    background-color: $red-alizarin;
+  }
+
+  &__light {
+    background-color: $white;
+  }
+
+  &__dark {
+    background-color: $light-grey;
+  }
+}
+
+.store-block {
+  min-height: 180px;
+
+  &__logo {
+    @include span-columns(2);
+    @include shift(1);
+    
+    width: 120px;
+    padding-top: 30px;
+  }
+
+  &__content {
+    @include span-columns(6);
+    padding-top: 30px;
+  }
+
+  &__title {
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  &__copy {
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  &__app_store {
+    @include span_columns(2);
+    display: inline-block;
+    margin-top: 60px;
+    
+    img {
+      width: 180px;
+    }
+  }
 }

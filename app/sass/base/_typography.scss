@@ -8,6 +8,6 @@ body {
 
 header {
   @include outer-container(100%);
-  background: $red-alizarin;
-  color: $white;
+  background: $white;
+  color: $red-alizarin;
 }

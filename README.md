@@ -1,5 +1,5 @@
-# ihomework2-website
-This website provides the source for the iHomework 2 website.
+# iHomework 2 Website
+This projects provides the source for the iHomework 2 website. iHomework 2 is the ultimate student planner. Find it on the [iTunes App Store](https://itunes.apple.com/us/app/ihomework-2/id1052937170?mt=8) or [Mac App Store](https://itunes.apple.com/us/app/ihomework-2/id1099504835?mt=12) 
 
 ## Getting Started
 
