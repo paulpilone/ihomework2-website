@@ -124,7 +124,10 @@
     @include shift(1);
     
     width: 120px;
-    padding-top: 30px;
+    margin-top: 30px;
+    //padding-top: 30px;
+    border-radius: 20px;
+    
   }
 
   &__content {
@@ -148,7 +151,7 @@
     @include span_columns(2);
     display: inline-block;
     margin-top: 60px;
-    
+
     img {
       width: 180px;
     }

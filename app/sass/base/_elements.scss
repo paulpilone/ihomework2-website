@@ -47,6 +47,11 @@ section {
   @include outer-container;
 }
 
+footer {
+  background: $blue-wet-asphalt;
+  min-height: 180px;
+}
+
 a:link,
 a:visited,
 a:hover,

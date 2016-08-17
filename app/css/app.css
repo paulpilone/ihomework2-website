@@ -52,6 +52,10 @@ section {
     content: "";
     display: block; }
 
+footer {
+  background: #34495e;
+  min-height: 180px; }
+
 a:link,
 a:visited,
 a:hover,
@@ -190,7 +194,8 @@ header {
     width: 14.70196%;
     margin-left: 8.5298%;
     width: 120px;
-    padding-top: 30px; }
+    margin-top: 30px;
+    border-radius: 20px; }
     .store-block__logo:last-child {
       margin-right: 0; }
   .store-block__content {
