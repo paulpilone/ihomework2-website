@@ -11,9 +11,8 @@ body {
 }
 
 nav {
-  @include outer-container;
-  @include padding(20px null 20px null);
-
+  @include padding(20px 40px 20px 40px);
+  
   ul {
     float: right;
     list-style: none;

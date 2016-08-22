@@ -44,20 +44,25 @@
   background-size: 320px;
   background-position-x: 20%;
   background-position-y: 50%;
-  }
+}
+
+.col-right {
+  @include shift(6);
+}
+
+.col-left {
+  @include shift(1);
+}
 
 .copy-block {
+  display: flex;
+  align-items: center;
+  //justify-content: center;
   min-height: 760px;
   padding: 4em 0;
 
-  &__content_inset {
+  &__content {
     @include span-columns(5);
-    @include shift(1);
-  }
-
-  &__content_large_inset {
-    @include span-columns(5);
-    @include shift(6);
   }
 
   &__copy {
@@ -121,13 +126,11 @@
 
   &__logo {
     @include span-columns(2);
-    @include shift(1);
+    @include shift(2);
     
-    width: 120px;
-    margin-top: 30px;
-    //padding-top: 30px;
+    width: 100px;
+    margin-top: 40px;
     border-radius: 20px;
-    
   }
 
   &__content {

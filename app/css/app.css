@@ -15,15 +15,7 @@ body {
   margin: 0; }
 
 nav {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-  nav::after {
-    clear: both;
-    content: "";
-    display: block; }
+  padding: 20px 40px; }
   nav ul {
     float: right;
     list-style: none;
@@ -125,24 +117,23 @@ header {
   background-position-x: 20%;
   background-position-y: 50%; }
 
+.col-right {
+  margin-left: 51.17883%; }
+
+.col-left {
+  margin-left: 8.5298%; }
+
 .copy-block {
+  display: flex;
+  align-items: center;
   min-height: 760px;
   padding: 4em 0; }
-  .copy-block__content_inset {
+  .copy-block__content {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 40.29137%;
-    margin-left: 8.5298%; }
-    .copy-block__content_inset:last-child {
-      margin-right: 0; }
-  .copy-block__content_large_inset {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%;
-    margin-left: 51.17883%; }
-    .copy-block__content_large_inset:last-child {
+    width: 40.29137%; }
+    .copy-block__content:last-child {
       margin-right: 0; }
   .copy-block__copy {
     font-size: 1.1em;
@@ -192,9 +183,9 @@ header {
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%;
-    margin-left: 8.5298%;
-    width: 120px;
-    margin-top: 30px;
+    margin-left: 17.05961%;
+    width: 100px;
+    margin-top: 40px;
     border-radius: 20px; }
     .store-block__logo:last-child {
       margin-right: 0; }
