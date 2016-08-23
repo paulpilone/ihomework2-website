@@ -1,93 +1,184 @@
 .assignment-list-bg {
   background-image: url(../img/assignment-list.png);
   background-repeat: no-repeat;
-  background-size: 320px;
-  background-position-x: 85%;
-  background-position-y: -50%;  
+
+  @include media(min-width $width-small) {
+    background-size: 240px;
+    background-position-x: 50%;
+    background-position-y: 400px;
+  }
+
+  @include media(min-width $width-medium) {
+    background-size: 180x;
+    background-position-x: 85%;
+    background-position-y: 50%;
+  }
+
+  @include media(min-width $width-large) {
+    background-size: 320px;
+    background-position-y: -10%;  
+  }
 }
 
 .planner-bg {
   background-image: url(../img/iphone-bg-gold.png);
   background-repeat: no-repeat;
-  background-size: 400px;
-  background-position-x: 20%;
-  background-position-y: 50%;
+  
+  @include media(min-width $width-small) {
+    background-size: 280px;
+    background-position-x: 50%;
+    background-position-y: 130%;
+  }
+
+  @include media(min-width $width-medium) {
+    background-size: 320px;
+    background-position-x: 10%;
+    background-position-y: 50%;
+  }
+
+  @include media(min-width $width-large) {
+    background-size: 400px;
+    background-position-x: 20%;
+  }
 }
 
 .details-bg {
   background-image: url(../img/details-bg.png);
   background-repeat: no-repeat;
-  background-size: 760px;
-  background-position-x: 120%;
-  background-position-y: 50%;
+  
+  @include media(min-width $width-small) {
+    background-size: 480px;
+    background-position-x: 50%;
+    background-position-y: 95%;
+  }
+
+  @include media(min-width $width-medium) {
+    background-size: 480px;
+    background-position-x: 140%;
+    background-position-y: 50%;
+  }
+
+  @include media(min-width $width-large) {
+    background-size: 760px;
+    background-position-x: 120%;
+  }
 }
 
 .instructor-bg {
   background-image: url(../img/instructor-list.png);
   background-repeat: no-repeat;
-  background-size: 320px;
-  background-position-x: 20%;
-  background-position-y: 50%;
+  
+  @include media(min-width $width-small) {
+    background-size: 240px;
+    background-position-x: 50%;
+    background-position-y: 135%;
+  }
+
+  @include media(min-width $width-medium) {
+    background-size: 280px;
+    background-position-x: 10%;
+    background-position-y: 50%;
+  }
+
+  @include media(min-width $width-large) {
+    background-size: 320px;
+    background-position-x: 20%;
+    background-position-y: 50%;
+  }
 }
 
 .watch-bg {
   background-image: url(../img/watch-bg.png);
   background-repeat: no-repeat;
-  background-size: 280px;
-  background-position-x: 80%;
-  background-position-y: 50%;
+
+  @include media(min-width $width-small) {
+    background-size: 200px;
+    background-position-x: 50%;
+    background-position-y: 70%;
+  }
+
+  @include media(min-width $width-medium) {
+    background-size: 240px;
+    background-position-x: 80%;
+    background-position-y: 50%;
+  }
+
+  @include media(min-width $width-large) {
+    background-size: 280px;
+    background-position-x: 80%;
+    background-position-y: 50%;
+  }
 }
 
 .settings-bg {
   background-image: url(../img/settings-bg.png);
   background-repeat: no-repeat;
-  background-size: 320px;
-  background-position-x: 20%;
-  background-position-y: 50%;
+
+  @include media(min-width $width-small) {
+    background-size: 240px;
+    background-position-x: 50%;
+    background-position-y: 135%;  
+  }
+
+  @include media(min-width $width-medium) {
+    background-size: 280px;
+    background-position-x: 10%;
+    background-position-y: 50%;  
+  }
+
+  @include media(min-width $width-large) {
+    background-size: 320px;
+    background-position-x: 20%;
+    background-position-y: 50%;  
+  }
 }
 
 .assignment-list-macOS {
   background-image: url(../img/assignment-list-macOS.png);
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position-x: 100%;
-  background-position-y: 50%;
+  
+  @include media(min-width $width-small) {
+    background-size: 75%;
+    background-position-x: 50%;
+    background-position-y: 90%;
+  }
+
+  @include media(min-width $width-medium) {
+    background-size: 50%;
+    background-position-x: 100%;
+    background-position-y: 50%;
+  }
 }
 
-.planner-macOS {
-  background-image: url(../img/planner-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position-x: 175%;
-  background-position-y: 50%;
-}
+.mac-block {
+  @include media(min-width $width-small) {
+    @include span-columns(10);
+    @include shift(1);
+    padding-top: 50pt;
 
-.search-macOS {
-  background-image: url(../img/search-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position-x: -80%;
-  background-position-y: 50%;
-}
+    img {      
+      width: 100%;
+    }
+  }
 
-.organizer-macOS {
-  background-image: url(../img/organizer-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position-x: 175%;
-  background-position-y: 50%;
-}
-
-.profile-macOS {
-  background-image: url(../img/profile-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 35%;
-  background-position-x: 15%;
-  background-position-y: 50%;
+  @include media(min-width $width-medium) {
+    @include span-columns(5);
+    @include shift(0);
+    
+    img {
+      width: auto;
+    }  
+  }
 }
 
 .col-right {
-  @include shift(6);
+  @include media(min-width $width-small) {
+    @include shift(1);
+  }
+
+  @include media(min-width $width-medium) {
+    @include shift(6);  
+  }
 }
 
 .col-left {
@@ -95,48 +186,91 @@
 }
 
 .copy-block {
-  display: flex;
-  align-items: center;
-  //justify-content: center;
   min-height: 760px;
-  padding: 4em 0;
+  padding: 4em 0em;
+
+  @include media(min-width $width-medium) {
+    display: flex;
+    align-items: center;
+  }
 
   &__content {
-    @include span-columns(5);
+    @include media(min-width $width-small) {
+      @include span-columns(10);
+    }
+
+    @include media(min-width $width-medium) {
+      @include span-columns(5);
+    }
   }
 
   &__copy {
-    font-size: 1.1em;
     font-weight: lighter;
+
+    @include media(min-width $width-small) {
+      font-size: 1em;
+    }
+
+    @include media(min-width $width-large) {
+      font-size: 1.1em;
+    }
   }
 
   &__title {
-    font-size: 2em;
     font-weight: lighter;
     line-height: 1.05em;
     margin: 0.4em 0;
+
+    @include media(min-width $width-small) {
+      font-size: 1.8em;
+    }
+
+    @include media(min-width $width-large) {
+      font-size: 2em;
+    }
   }
 }
 
 .hero {
   background-color: $red-alizarin;
-  min-height: 460px;
   padding: 4em 0;
+
+  @include media(min-width $width-small) {
+    min-height: 620px;
+  }
+
+  @include media(min-width $width-medium) {
+    min-height: 460px;
+  }
 
   &__app_store > img {
     width: 180px;
   }
 
   &__content_inset {
-    @include span-columns(5);
-    @include shift(1);
+    @include shift(1); 
+
+    @include media(min-width $width-small) {
+      @include span-columns(10);
+    }
+
+    @include media(min-width $width-medium) {
+      @include span-columns(5);
+    }
   }
 
   &__copy {
     color: $white;
-    font-size: 1.25em;
     font-weight: lighter;
     margin-bottom: 40px;
+
+    @include media(min-width $width-small) {
+      font-size: 1.0em;
+    }
+
+    @include media(min-width $width-large) {
+      font-size: 1.25em;
+    }
   }
 
   &__title {
@@ -144,43 +278,75 @@
     font-size: 2.5em;
     font-weight: lighter;
     line-height: 1.05em;
+
+    @include media(min-width $width-small) {
+      font-size: 2em;
+    }
+  }
+}
+
+.profile-block {
+  @include media(min-width $width-small) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+
+  @include media(min-width $width-medium) {
+    @include span-columns(5);
+  }
+
+}
+
+.reverse-phone {
+  @include media(min-width $width-small) {
+    @include shift(1);
+  }
+
+  @include media(min-width $width-medium) {
+    @include shift(0);
   }
 }
 
 .row {
   &__highlight {
+    overflow-x: hidden;
     background-color: $red-alizarin;
   }
 
   &__light {
+    overflow-x: hidden;
     background-color: $white;
   }
 
   &__dark {
+    overflow-x: hidden;
     background-color: $light-grey;
+    border-bottom: 1px solid $medium-grey;
   }
 }
 
 .store-block {
+  @include display(flex);
+  @include align-content(center);
+  @include justify-content(center);
+  @include flex-wrap(wrap);
   min-height: 180px;
+  padding-bottom: 30px;
 
   &__logo {
-    @include span-columns(2);
-    @include shift(2);
-    
     width: 100px;
     margin-top: 40px;
     border-radius: 20px;
   }
 
   &__content {
-    @include span-columns(6);
-    padding-top: 30px;
+    margin: 30px 30px 30px 30px;
   }
 
   &__title {
     font-size: 2em;
     font-weight: lighter;
+    line-height: 1.05em;
     text-align: center;
   }
 
@@ -191,10 +357,9 @@
   }
 
   &__app_store {
-    @include span_columns(2);
-    display: inline-block;
-    margin-top: 60px;
-
+    display: flex;
+    align-items: center;
+    
     img {
       width: 180px;
     }

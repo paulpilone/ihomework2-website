@@ -77,177 +77,336 @@ header {
 
 .assignment-list-bg {
   background-image: url(../img/assignment-list.png);
-  background-repeat: no-repeat;
-  background-size: 320px;
-  background-position-x: 85%;
-  background-position-y: -50%; }
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .assignment-list-bg {
+      background-size: 240px;
+      background-position-x: 50%;
+      background-position-y: 400px; } }
+  @media screen and (min-width: 720px) {
+    .assignment-list-bg {
+      background-size: 180x;
+      background-position-x: 85%;
+      background-position-y: 50%; } }
+  @media screen and (min-width: 900px) {
+    .assignment-list-bg {
+      background-size: 320px;
+      background-position-y: -10%; } }
 
 .planner-bg {
   background-image: url(../img/iphone-bg-gold.png);
-  background-repeat: no-repeat;
-  background-size: 400px;
-  background-position-x: 20%;
-  background-position-y: 50%; }
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .planner-bg {
+      background-size: 280px;
+      background-position-x: 50%;
+      background-position-y: 130%; } }
+  @media screen and (min-width: 720px) {
+    .planner-bg {
+      background-size: 320px;
+      background-position-x: 10%;
+      background-position-y: 50%; } }
+  @media screen and (min-width: 900px) {
+    .planner-bg {
+      background-size: 400px;
+      background-position-x: 20%; } }
 
 .details-bg {
   background-image: url(../img/details-bg.png);
-  background-repeat: no-repeat;
-  background-size: 760px;
-  background-position-x: 120%;
-  background-position-y: 50%; }
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .details-bg {
+      background-size: 480px;
+      background-position-x: 50%;
+      background-position-y: 95%; } }
+  @media screen and (min-width: 720px) {
+    .details-bg {
+      background-size: 480px;
+      background-position-x: 140%;
+      background-position-y: 50%; } }
+  @media screen and (min-width: 900px) {
+    .details-bg {
+      background-size: 760px;
+      background-position-x: 120%; } }
 
 .instructor-bg {
   background-image: url(../img/instructor-list.png);
-  background-repeat: no-repeat;
-  background-size: 320px;
-  background-position-x: 20%;
-  background-position-y: 50%; }
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .instructor-bg {
+      background-size: 240px;
+      background-position-x: 50%;
+      background-position-y: 135%; } }
+  @media screen and (min-width: 720px) {
+    .instructor-bg {
+      background-size: 280px;
+      background-position-x: 10%;
+      background-position-y: 50%; } }
+  @media screen and (min-width: 900px) {
+    .instructor-bg {
+      background-size: 320px;
+      background-position-x: 20%;
+      background-position-y: 50%; } }
 
 .watch-bg {
   background-image: url(../img/watch-bg.png);
-  background-repeat: no-repeat;
-  background-size: 280px;
-  background-position-x: 80%;
-  background-position-y: 50%; }
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .watch-bg {
+      background-size: 200px;
+      background-position-x: 50%;
+      background-position-y: 70%; } }
+  @media screen and (min-width: 720px) {
+    .watch-bg {
+      background-size: 240px;
+      background-position-x: 80%;
+      background-position-y: 50%; } }
+  @media screen and (min-width: 900px) {
+    .watch-bg {
+      background-size: 280px;
+      background-position-x: 80%;
+      background-position-y: 50%; } }
 
 .settings-bg {
   background-image: url(../img/settings-bg.png);
-  background-repeat: no-repeat;
-  background-size: 320px;
-  background-position-x: 20%;
-  background-position-y: 50%; }
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .settings-bg {
+      background-size: 240px;
+      background-position-x: 50%;
+      background-position-y: 135%; } }
+  @media screen and (min-width: 720px) {
+    .settings-bg {
+      background-size: 280px;
+      background-position-x: 10%;
+      background-position-y: 50%; } }
+  @media screen and (min-width: 900px) {
+    .settings-bg {
+      background-size: 320px;
+      background-position-x: 20%;
+      background-position-y: 50%; } }
 
 .assignment-list-macOS {
   background-image: url(../img/assignment-list-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position-x: 100%;
-  background-position-y: 50%; }
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .assignment-list-macOS {
+      background-size: 75%;
+      background-position-x: 50%;
+      background-position-y: 90%; } }
+  @media screen and (min-width: 720px) {
+    .assignment-list-macOS {
+      background-size: 50%;
+      background-position-x: 100%;
+      background-position-y: 50%; } }
 
-.planner-macOS {
-  background-image: url(../img/planner-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position-x: 175%;
-  background-position-y: 50%; }
+@media screen and (min-width: 320px) {
+  .mac-block {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
+    padding-top: 50pt; }
+    .mac-block:last-child {
+      margin-right: 0; }
+    .mac-block img {
+      width: 100%; } }
+@media screen and (min-width: 720px) {
+  .mac-block {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-left: 0%; }
+    .mac-block:last-child {
+      margin-right: 0; }
+    .mac-block img {
+      width: auto; } }
 
-.search-macOS {
-  background-image: url(../img/search-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position-x: -80%;
-  background-position-y: 50%; }
-
-.organizer-macOS {
-  background-image: url(../img/organizer-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position-x: 175%;
-  background-position-y: 50%; }
-
-.profile-macOS {
-  background-image: url(../img/profile-macOS.png);
-  background-repeat: no-repeat;
-  background-size: 35%;
-  background-position-x: 15%;
-  background-position-y: 50%; }
-
-.col-right {
-  margin-left: 51.17883%; }
+@media screen and (min-width: 320px) {
+  .col-right {
+    margin-left: 8.5298%; } }
+@media screen and (min-width: 720px) {
+  .col-right {
+    margin-left: 51.17883%; } }
 
 .col-left {
   margin-left: 8.5298%; }
 
 .copy-block {
-  display: flex;
-  align-items: center;
   min-height: 760px;
-  padding: 4em 0; }
-  .copy-block__content {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%; }
-    .copy-block__content:last-child {
-      margin-right: 0; }
+  padding: 4em 0em; }
+  @media screen and (min-width: 720px) {
+    .copy-block {
+      display: flex;
+      align-items: center; } }
+  @media screen and (min-width: 320px) {
+    .copy-block__content {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%; }
+      .copy-block__content:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 720px) {
+    .copy-block__content {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      .copy-block__content:last-child {
+        margin-right: 0; } }
   .copy-block__copy {
-    font-size: 1.1em;
     font-weight: lighter; }
+    @media screen and (min-width: 320px) {
+      .copy-block__copy {
+        font-size: 1em; } }
+    @media screen and (min-width: 900px) {
+      .copy-block__copy {
+        font-size: 1.1em; } }
   .copy-block__title {
-    font-size: 2em;
     font-weight: lighter;
     line-height: 1.05em;
     margin: 0.4em 0; }
+    @media screen and (min-width: 320px) {
+      .copy-block__title {
+        font-size: 1.8em; } }
+    @media screen and (min-width: 900px) {
+      .copy-block__title {
+        font-size: 2em; } }
 
 .hero {
   background-color: #e74c3c;
-  min-height: 460px;
   padding: 4em 0; }
+  @media screen and (min-width: 320px) {
+    .hero {
+      min-height: 620px; } }
+  @media screen and (min-width: 720px) {
+    .hero {
+      min-height: 460px; } }
   .hero__app_store > img {
     width: 180px; }
   .hero__content_inset {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%;
     margin-left: 8.5298%; }
-    .hero__content_inset:last-child {
-      margin-right: 0; }
+    @media screen and (min-width: 320px) {
+      .hero__content_inset {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 82.94039%; }
+        .hero__content_inset:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 720px) {
+      .hero__content_inset {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 40.29137%; }
+        .hero__content_inset:last-child {
+          margin-right: 0; } }
   .hero__copy {
     color: white;
-    font-size: 1.25em;
     font-weight: lighter;
     margin-bottom: 40px; }
+    @media screen and (min-width: 320px) {
+      .hero__copy {
+        font-size: 1.0em; } }
+    @media screen and (min-width: 900px) {
+      .hero__copy {
+        font-size: 1.25em; } }
   .hero__title {
     color: white;
     font-size: 2.5em;
     font-weight: lighter;
     line-height: 1.05em; }
+    @media screen and (min-width: 320px) {
+      .hero__title {
+        font-size: 2em; } }
 
-.row__highlight {
-  background-color: #e74c3c; }
-.row__light {
-  background-color: white; }
-.row__dark {
-  background-color: #fafafa; }
-
-.store-block {
-  min-height: 180px; }
-  .store-block__logo {
+@media screen and (min-width: 320px) {
+  .profile-block {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 14.70196%;
-    margin-left: 17.05961%;
+    width: 82.94039%;
+    margin-left: 8.5298%; }
+    .profile-block:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 720px) {
+  .profile-block {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    .profile-block:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 320px) {
+  .reverse-phone {
+    margin-left: 8.5298%; } }
+@media screen and (min-width: 720px) {
+  .reverse-phone {
+    margin-left: 0%; } }
+
+.row__highlight {
+  overflow-x: hidden;
+  background-color: #e74c3c; }
+.row__light {
+  overflow-x: hidden;
+  background-color: white; }
+.row__dark {
+  overflow-x: hidden;
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f0; }
+
+.store-block {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+  -moz-align-content: center;
+  align-content: center;
+  -ms-flex-line-pack: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  min-height: 180px;
+  padding-bottom: 30px; }
+  .store-block__logo {
     width: 100px;
     margin-top: 40px;
     border-radius: 20px; }
-    .store-block__logo:last-child {
-      margin-right: 0; }
   .store-block__content {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    padding-top: 30px; }
-    .store-block__content:last-child {
-      margin-right: 0; }
+    margin: 30px 30px 30px 30px; }
   .store-block__title {
     font-size: 2em;
     font-weight: lighter;
+    line-height: 1.05em;
     text-align: center; }
   .store-block__copy {
     font-size: 1em;
     font-weight: lighter;
     text-align: center; }
   .store-block__app_store {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%;
-    display: inline-block;
-    margin-top: 60px; }
-    .store-block__app_store:last-child {
-      margin-right: 0; }
+    display: flex;
+    align-items: center; }
     .store-block__app_store img {
       width: 180px; }
