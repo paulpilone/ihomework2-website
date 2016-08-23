@@ -117,6 +117,41 @@ header {
   background-position-x: 20%;
   background-position-y: 50%; }
 
+.assignment-list-macOS {
+  background-image: url(../img/assignment-list-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 100%;
+  background-position-y: 50%; }
+
+.planner-macOS {
+  background-image: url(../img/planner-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-x: 175%;
+  background-position-y: 50%; }
+
+.search-macOS {
+  background-image: url(../img/search-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-x: -80%;
+  background-position-y: 50%; }
+
+.organizer-macOS {
+  background-image: url(../img/organizer-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-x: 175%;
+  background-position-y: 50%; }
+
+.profile-macOS {
+  background-image: url(../img/profile-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position-x: 15%;
+  background-position-y: 50%; }
+
 .col-right {
   margin-left: 51.17883%; }
 
@@ -155,7 +190,7 @@ header {
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%;
-    margin-left: 17.05961%; }
+    margin-left: 8.5298%; }
     .hero__content_inset:last-child {
       margin-right: 0; }
   .hero__copy {

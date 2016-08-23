@@ -46,6 +46,46 @@
   background-position-y: 50%;
 }
 
+.assignment-list-macOS {
+  background-image: url(../img/assignment-list-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 100%;
+  background-position-y: 50%;
+}
+
+.planner-macOS {
+  background-image: url(../img/planner-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-x: 175%;
+  background-position-y: 50%;
+}
+
+.search-macOS {
+  background-image: url(../img/search-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-x: -80%;
+  background-position-y: 50%;
+}
+
+.organizer-macOS {
+  background-image: url(../img/organizer-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position-x: 175%;
+  background-position-y: 50%;
+}
+
+.profile-macOS {
+  background-image: url(../img/profile-macOS.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position-x: 15%;
+  background-position-y: 50%;
+}
+
 .col-right {
   @include shift(6);
 }
@@ -89,7 +129,7 @@
 
   &__content_inset {
     @include span-columns(5);
-    @include shift(2);
+    @include shift(1);
   }
 
   &__copy {
