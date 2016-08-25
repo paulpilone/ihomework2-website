@@ -5,7 +5,7 @@
   @include media(min-width $width-small) {
     background-size: 240px;
     background-position-x: 50%;
-    background-position-y: 400px;
+    background-position-y: 225%;
   }
 
   @include media(min-width $width-medium) {
@@ -27,7 +27,11 @@
   @include media(min-width $width-small) {
     background-size: 280px;
     background-position-x: 50%;
-    background-position-y: 130%;
+    background-position-y: 175%;
+  }
+
+  @include media(min-width 375px) {
+    background-position-y: 150%; 
   }
 
   @include media(min-width $width-medium) {
@@ -42,28 +46,6 @@
   }
 }
 
-.details-bg {
-  background-image: url(../img/details-bg.png);
-  background-repeat: no-repeat;
-  
-  @include media(min-width $width-small) {
-    background-size: 480px;
-    background-position-x: 50%;
-    background-position-y: 95%;
-  }
-
-  @include media(min-width $width-medium) {
-    background-size: 480px;
-    background-position-x: 140%;
-    background-position-y: 50%;
-  }
-
-  @include media(min-width $width-large) {
-    background-size: 760px;
-    background-position-x: 120%;
-  }
-}
-
 .instructor-bg {
   background-image: url(../img/instructor-list.png);
   background-repeat: no-repeat;
@@ -71,7 +53,11 @@
   @include media(min-width $width-small) {
     background-size: 240px;
     background-position-x: 50%;
-    background-position-y: 135%;
+    background-position-y: 175%;
+  }
+
+  @include media(min-width 375px) {
+    background-position-y: 160%;
   }
 
   @include media(min-width $width-medium) {
@@ -117,7 +103,11 @@
   @include media(min-width $width-small) {
     background-size: 240px;
     background-position-x: 50%;
-    background-position-y: 135%;  
+    background-position-y: 175%;  
+  }
+
+  @include media(min-width 375px) {
+    background-position-y: 160%;  
   }
 
   @include media(min-width $width-medium) {
@@ -236,7 +226,7 @@
   padding: 4em 0;
 
   @include media(min-width $width-small) {
-    min-height: 620px;
+    min-height: 700px;
   }
 
   @include media(min-width $width-medium) {
@@ -293,6 +283,12 @@
 
   @include media(min-width $width-medium) {
     @include span-columns(5);
+  }
+
+  &__img {
+    @include media(max-width $width-medium) {
+      width: 100%;
+    }
   }
 
 }

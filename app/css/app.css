@@ -26,14 +26,24 @@ nav {
   nav a {
     display: inline-block; }
     nav a img {
-      float: left;
-      height: 56px; }
+      float: left; }
+      @media screen and (min-width: 320px) {
+        nav a img {
+          height: 48px; } }
+      @media screen and (min-width: 720px) {
+        nav a img {
+          height: 56px; } }
     nav a em {
       float: right;
-      font-size: 2em;
       font-style: normal;
       font-weight: lighter;
       margin: .5em 0 auto 10px; }
+      @media screen and (min-width: 320px) {
+        nav a em {
+          font-size: 1.85em; } }
+      @media screen and (min-width: 720px) {
+        nav a em {
+          font-size: 2em; } }
 
 section {
   max-width: 1200px;
@@ -82,7 +92,7 @@ header {
     .assignment-list-bg {
       background-size: 240px;
       background-position-x: 50%;
-      background-position-y: 400px; } }
+      background-position-y: 225%; } }
   @media screen and (min-width: 720px) {
     .assignment-list-bg {
       background-size: 180x;
@@ -100,7 +110,10 @@ header {
     .planner-bg {
       background-size: 280px;
       background-position-x: 50%;
-      background-position-y: 130%; } }
+      background-position-y: 175%; } }
+  @media screen and (min-width: 375px) {
+    .planner-bg {
+      background-position-y: 150%; } }
   @media screen and (min-width: 720px) {
     .planner-bg {
       background-size: 320px;
@@ -111,24 +124,6 @@ header {
       background-size: 400px;
       background-position-x: 20%; } }
 
-.details-bg {
-  background-image: url(../img/details-bg.png);
-  background-repeat: no-repeat; }
-  @media screen and (min-width: 320px) {
-    .details-bg {
-      background-size: 480px;
-      background-position-x: 50%;
-      background-position-y: 95%; } }
-  @media screen and (min-width: 720px) {
-    .details-bg {
-      background-size: 480px;
-      background-position-x: 140%;
-      background-position-y: 50%; } }
-  @media screen and (min-width: 900px) {
-    .details-bg {
-      background-size: 760px;
-      background-position-x: 120%; } }
-
 .instructor-bg {
   background-image: url(../img/instructor-list.png);
   background-repeat: no-repeat; }
@@ -136,7 +131,10 @@ header {
     .instructor-bg {
       background-size: 240px;
       background-position-x: 50%;
-      background-position-y: 135%; } }
+      background-position-y: 175%; } }
+  @media screen and (min-width: 375px) {
+    .instructor-bg {
+      background-position-y: 160%; } }
   @media screen and (min-width: 720px) {
     .instructor-bg {
       background-size: 280px;
@@ -174,7 +172,10 @@ header {
     .settings-bg {
       background-size: 240px;
       background-position-x: 50%;
-      background-position-y: 135%; } }
+      background-position-y: 175%; } }
+  @media screen and (min-width: 375px) {
+    .settings-bg {
+      background-position-y: 160%; } }
   @media screen and (min-width: 720px) {
     .settings-bg {
       background-size: 280px;
@@ -281,7 +282,7 @@ header {
   padding: 4em 0; }
   @media screen and (min-width: 320px) {
     .hero {
-      min-height: 620px; } }
+      min-height: 700px; } }
   @media screen and (min-width: 720px) {
     .hero {
       min-height: 460px; } }
@@ -341,6 +342,9 @@ header {
     width: 40.29137%; }
     .profile-block:last-child {
       margin-right: 0; } }
+@media screen and (max-width: 720px) {
+  .profile-block__img {
+    width: 100%; } }
 
 @media screen and (min-width: 320px) {
   .reverse-phone {
