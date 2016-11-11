@@ -361,3 +361,22 @@
     }
   }
 }
+
+.hero-terms {
+  background: $red-alizarin;
+  color: $white;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__title {
+    font-size: 2em;
+    font-weight: lighter;
+  }
+}
+
+.terms-block {
+  &__title {
+    font-weight: lighter;
+  }
+}

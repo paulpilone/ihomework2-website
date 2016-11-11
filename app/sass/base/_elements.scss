@@ -58,11 +58,44 @@ nav {
 
 section {
   @include outer-container;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+p {
+  font-weight: lighter;
+}
+
+li {
+  font-weight: lighter;
 }
 
 footer {
+  @include display(flex);
+  @include justify-content(center);
   background: $blue-wet-asphalt;
-  min-height: 180px;
+  color: $white;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      padding: 20px;
+    }
+  }
+  
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: $white;
+  }
 }
 
 a:link,
