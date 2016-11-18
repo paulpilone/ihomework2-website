@@ -380,3 +380,36 @@
     font-weight: lighter;
   }
 }
+
+.device-block {
+  @include display(flex);
+  @include align-content(center);
+  @include justify-content(center);
+  @include flex-wrap(wrap);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 2em;
+  }
+
+  &__copy {
+    @include media(min-width $width-small) {
+      font-size: 1em;
+    }
+
+    @include media(min-width $width-large) {
+      font-size: 1.1em;
+    }
+  }
+
+  &__img {
+    margin-top: 20px;
+    width: 70%;
+  }
+}
