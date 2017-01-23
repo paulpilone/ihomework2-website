@@ -73,6 +73,33 @@
   }
 }
 
+.grade-insights {
+  background-image: url(../img/grade-insights-bg.png);
+  background-repeat: no-repeat;
+
+  @include media(min-width $width-small) {
+    background-size: 240px;
+    background-position-x: 50%;
+    background-position-y: 175%;
+  }
+
+  @include media(min-width 375px) {
+    background-position-y: 160%;
+  }
+
+  @include media(min-width $width-medium) {
+    background-size: 280px;
+    background-position-x: 10%;
+    background-position-y: 50%;
+  }
+
+  @include media(min-width $width-large) {
+    background-size: 320px;
+    background-position-x: 20%;
+    background-position-y: 50%;
+  }
+}
+
 .watch-bg {
   background-image: url(../img/watch-bg.png);
   background-repeat: no-repeat;

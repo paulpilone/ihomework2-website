@@ -183,6 +183,28 @@ header {
       background-position-x: 20%;
       background-position-y: 50%; } }
 
+.grade-insights {
+  background-image: url(../img/grade-insights-bg.png);
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .grade-insights {
+      background-size: 240px;
+      background-position-x: 50%;
+      background-position-y: 175%; } }
+  @media screen and (min-width: 375px) {
+    .grade-insights {
+      background-position-y: 160%; } }
+  @media screen and (min-width: 720px) {
+    .grade-insights {
+      background-size: 280px;
+      background-position-x: 10%;
+      background-position-y: 50%; } }
+  @media screen and (min-width: 900px) {
+    .grade-insights {
+      background-size: 320px;
+      background-position-x: 20%;
+      background-position-y: 50%; } }
+
 .watch-bg {
   background-image: url(../img/watch-bg.png);
   background-repeat: no-repeat; }
