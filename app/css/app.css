@@ -529,3 +529,23 @@ header {
   .device-block__img {
     margin-top: 20px;
     width: 70%; }
+
+.faq-block {
+  margin-top: 40px; }
+  .faq-block__question {
+    font-size: 1.5em;
+    line-height: 1.2em; }
+
+.faq-contact {
+  margin-bottom: 80px;
+  margin-top: 80px; }
+  .faq-contact h2 {
+    margin-bottom: 30px; }
+  .faq-contact a {
+    background-color: #3498db;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px; }
+    .faq-contact a:hover {
+      background-color: #4aa3df; }
