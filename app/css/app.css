@@ -14,6 +14,12 @@ body {
   width: 100%;
   margin: 0; }
 
+body.share-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0; }
+
 nav {
   padding: 20px 40px; }
   nav ul {
@@ -549,3 +555,10 @@ header {
     padding: 15px 30px 15px 30px; }
     .faq-contact a:hover {
       background-color: #4aa3df; }
+
+.share {
+  display: flex;
+  flex: 1; }
+
+.share-block {
+  margin-top: 100px; }
