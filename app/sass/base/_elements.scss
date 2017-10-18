@@ -11,12 +11,12 @@ body {
 
 }
 
-  body.share-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-  }
+body.share-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
 
 nav {
   @include padding(20px 40px 20px 40px);
