@@ -174,17 +174,35 @@ header {
     .instructor-bg {
       background-size: 240px;
       background-position-x: 50%;
-      background-position-y: 175%; } }
-  @media screen and (min-width: 375px) {
-    .instructor-bg {
-      background-position-y: 160%; } }
+      background-position-y: 150%; } }
   @media screen and (min-width: 720px) {
     .instructor-bg {
+      background-size: 280x;
+      background-position-x: 85%;
+      background-position-y: 50%; } }
+  @media screen and (min-width: 900px) {
+    .instructor-bg {
+      background-size: 320px;
+      background-position-y: 50%; } }
+
+.messages-bg {
+  background-image: url(../img/messages-bg.png);
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 320px) {
+    .messages-bg {
+      background-size: 240px;
+      background-position-x: 50%;
+      background-position-y: 100%; } }
+  @media screen and (min-width: 375px) {
+    .messages-bg {
+      background-position-y: 160%; } }
+  @media screen and (min-width: 720px) {
+    .messages-bg {
       background-size: 280px;
       background-position-x: 10%;
       background-position-y: 50%; } }
   @media screen and (min-width: 900px) {
-    .instructor-bg {
+    .messages-bg {
       background-size: 320px;
       background-position-x: 20%;
       background-position-y: 50%; } }
