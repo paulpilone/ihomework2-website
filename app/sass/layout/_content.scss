@@ -494,6 +494,19 @@
   }
 }
 
+.faq-block__store-links {
+  display: flex;
+  align-items: center;
+
+  a {
+    margin-right: 30px;
+  }
+}
+
+.app-nav-instructions {
+  font-style: italic;
+}
+
 .share {
   display: flex;
   flex: 1;

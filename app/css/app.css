@@ -574,6 +574,15 @@ header {
     .faq-contact a:hover {
       background-color: #4aa3df; }
 
+.faq-block__store-links {
+  display: flex;
+  align-items: center; }
+  .faq-block__store-links a {
+    margin-right: 30px; }
+
+.app-nav-instructions {
+  font-style: italic; }
+
 .share {
   display: flex;
   flex: 1; }
