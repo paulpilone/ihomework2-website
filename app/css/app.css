@@ -589,3 +589,38 @@ header {
 
 .share-block {
   margin-top: 100px; }
+
+@media screen and (min-width: 320px) {
+  .online-block {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
+    padding-top: 50pt; }
+    .online-block:last-child {
+      margin-right: 0; }
+    .online-block img {
+      width: 100%; } }
+@media screen and (min-width: 720px) {
+  .online-block {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-left: 0%; }
+    .online-block:last-child {
+      margin-right: 0; }
+    .online-block img {
+      width: 900px; } }
+
+.rounded-btn-light {
+  padding: 20px 0 20px 0; }
+  .rounded-btn-light a {
+    background-color: #3498db;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px; }
+    .rounded-btn-light a:hover {
+      background-color: #4aa3df; }

@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/paulpilone/ihomework2-website#readme",
   "devDependencies": {
-    "browser-sync": "^2.14.0",
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
-    "gulp-ruby-sass": "^2.1.0"
+    "gulp-ruby-sass": "^3.0.0"
   }
 }
